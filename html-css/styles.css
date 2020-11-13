@@ -11,4 +11,237 @@ white - rgb(255, 255, 255) (default value)
 the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
-*/
+*/ 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(42, 171, 226) 
+}
+
+li {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1; 
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 2%;
+    width: 100vw;
+    height: 70px;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.pbox {
+    background-color: transparent;
+    height: 725px;
+    width: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+p {
+    overflow-wrap: normal;
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000; 
+    text-decoration: none;
+}
+
+h2 {
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000; 
+    text-decoration: none;
+    padding-bottom: 4%;
+}
+
+.profilebox {
+    background-color: rgb(245, 245, 245);
+    height: 320px;
+    width: 300px;
+    margin-top: -725px;
+    margin-left: 870px;
+    box-shadow: 0px 0px 40px 0px rgba(102, 75, 75, .3);
+    border-radius: 10px;
+}
+
+.profilecircle {
+    border: solid 8px;
+    background: transparent;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000000; 
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.popularbox {
+    background-color: rgb(245, 245, 245);
+    height: 410px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 870px;
+    box-shadow: 0px 0px 40px 0px rgba(102, 75, 75, .3);
+    border-radius: 10px;
+}
+
+ol {
+    font-family: Montserrat, sans-serif;
+    font-weight: 330;
+    font-size: 16px;
+    color: black; 
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 30px;
+}
+
+h4 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000; 
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 15px;
+}
+
+h5 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000; 
+    text-decoration: none;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.imageframebox {
+    background-color: transparent;
+    width: 600px;
+    height: 300px;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.image1 {
+    height: 100px;
+    width: 150px;
+    background-color:rgb(31, 30, 30);
+    margin: 3%;
+}
+
+.image2 {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    margin: 3%;
+}
+
+.image3 {
+    height: 100px;
+    width: 150px;
+    background-color:rgb(31, 30, 30);
+    margin: 3%;
+}
+
+.image4 {
+    height: 100px;
+    width: 150px;
+    background-color: rgb(31, 30, 30);
+    margin: 3%;
+}
+
+.image5 {
+    height: 100px;
+    width: 150px;
+    background-color:rgb(31, 30, 30);
+    margin: 3%;
+}
+
+.image6 {
+    height: 100px;
+    width: 150px;
+    background-color:rgb(31, 30, 30);
+    margin: 3%;
+}
+
+footer {
+    width: 100vw;
+    height: 70px;
+    background-color:rgb(42, 171, 226);
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 330;
+    font-size: 16px;
+    color: black; 
+    text-decoration: none;
+    padding-top: 1.9%;
+    padding-left: 2%;
+}
+
+.questioncircle {
+    border: solid 4px;
+    border-color: rgb(31, 30, 30);
+    background: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -34px;
+    margin-left: 1315px;
+    position: fixed;
+    bottom: 9;
+    right: 9;
+}
+
+.qmark {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: black; 
+    text-decoration: none;
+    padding-left: 14px;
+    margin-top: 6px;
+}
