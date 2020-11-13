@@ -8,19 +8,21 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
+const myArr = [4, 'abc' ['cat', 'dog', 'bird'], 77]
 
 
 ////////////////////PROBLEM 2////////////////////
 /*
     The following array, nestedLetters, contains many levels of nested arrays.
-    Using bracket notation, access the letter 'z' and save it to a variable
+    Using bracket notation 
+    
+    access the letter 'z' and save it to a variable
     called 'foundZ'.
 */
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
+const foundZ = nestedLetters[8]
 
 
 ////////////////////PROBLEM 3////////////////////
@@ -36,7 +38,7 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
+const animals = [...forest, ...ocean, ...savannah, ...desert]
 
 
 /*
@@ -44,7 +46,7 @@ const desert = ['rattlesnake', 'coyote']
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-//CODE HERE
+const animalsCopy = [...animals, 'elephant']
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -55,7 +57,13 @@ const desert = ['rattlesnake', 'coyote']
     If the numbers are the same, just return the number.
 */
 
-//CODE HERE
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+      return num1
+  } else {
+      return num2
+  }
+}
 
   
 ////////////////////PROBLEM 5////////////////////
@@ -67,7 +75,7 @@ const desert = ['rattlesnake', 'coyote']
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+const bestMovie = (movieTitle) => {return movieTitle + 'is the best movie ever!'}
   
   
 ////////////////////PROBLEM 6////////////////////
@@ -75,7 +83,9 @@ const desert = ['rattlesnake', 'coyote']
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-//CODE HERE
+const jsNinja = () => {
+    return ("I am a JavaScript ninja!")
+}
   
 
 ////////////////////PROBLEM 7////////////////////
@@ -96,8 +106,7 @@ const desert = ['rattlesnake', 'coyote']
     delete the rating property off of the gameInfo object.
 */
 
-//CODE HERE
-  
+delete gameInfo.rating
 
 ////////////////////PROBLEM 8////////////////////
 
@@ -118,7 +127,13 @@ const desert = ['rattlesnake', 'coyote']
     looping over the shapes object and deleting any property whose value is odd number.
 */
 
-//CODE HERE
+// for (let i = 0; i < shapes.length - 1; i++){
+//     if (shapes % 2 == 0){
+//         return shapes
+//     } else{
+//         delete shapes
+//     }
+// }
   
   
 ////////////////////PROBLEM 9////////////////////
@@ -160,7 +175,9 @@ const classes = [
     all online classes with no homework.
 */
 
-//CODE HERE
+// for (let i = 0; i < classes.length - 1; i++){
+
+// }
 
   
 ////////////////////PROBLEM 10////////////////////
@@ -193,7 +210,12 @@ let pairsArray = []
     Those values should come from the functions parameters: name, age, breed, tricks (in order).
 */
 
-//CODE HERE
+function Dog(name, age, breed, tricks) {
+    this.name = name;
+    this.age = age;
+    this.breed = breed;
+    this.tricks = tricks;
+}
 
 
 /*
@@ -202,7 +224,7 @@ let pairsArray = []
     Store the result in a variable called 'fido'.
 */
 
-//CODE HERE
+const fido = new Dog('Fido', 3, 'Jack Russell', ['sit', 'shake'])
   
 
 ////////////////////PROBLEM 12////////////////////
@@ -212,7 +234,7 @@ let pairsArray = []
     NAME will come from that context, so you should reference 'this.name' to get the correct name.
 */
 
-//CODE HERE
+// function bark// IMA KEEP WORKING BUT THIS IS MY SUBMITION **(*)(*()*_)*)(*)(*_)*_)**************************************
 
 
 /*

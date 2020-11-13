@@ -80,7 +80,9 @@ const products = [
   Save the copy to a new variable called 'saleProducts'.
 */
 
-//CODE HERE
+const saleProducts = products.map(function(element, index, array){
+  
+})
 
 ////////////////////PROBLEM 3////////////////////
 /*
@@ -129,7 +131,7 @@ const shippingInfo = {
   that combines the contactInfo and shippingInfo objects.
 */
 
-//CODE HERE
+const helensInfo = (contactInfo, shippingInfo)
 
 ////////////////////PROBLEM 6////////////////////
 /*
@@ -138,14 +140,14 @@ const shippingInfo = {
   Overwrite the name property to 'Ellen' and the email address to 'ellen@email.com'.
 */
 
-//CODE HERE
+const ellensInfo = {...helensInfo, name: 'Ellen', email: 'ellen@email.com'}
 
 ////////////////////PROBLEM 7////////////////////
 /* 
   Save Ellen's email to a new variable using destructuring.
 */
 
-//CODE HERE
+// const email = ellensInfo
 
 ////////////////////PROBLEM 8////////////////////
 /*
@@ -273,9 +275,9 @@ const workout = {
   },
 }
 
-//let context1 = myFunc
-//let context1 = window
-//let context1 = global
+// let context1 = myFunc
+// let context1 = window
+// let context1 = global
 // let context1 = workout
 
 ////////////////////PROBLEM 14////////////////////
@@ -288,7 +290,7 @@ function myFunc() {
   return this
 }
 
-//let context2 = myFunc
+// let context2 = myFunc
 // let context2 = window
-//let context2 = global
-//let context2 = workout
+// let context2 = global
+// let context2 = workout
